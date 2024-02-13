@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Valentine's Day Letter</title>
+</head>
+
+<body class="bg-pink-100">
+    <div class="min-h-screen flex justify-center items-center relative">
+
+    
+
+        <!-- Right Tulips Image -->
+        <img src="images/tulips2.png" alt="Right Tulips" class="absolute inset-0 md:w-1/2 h-full object-cover">
+
+        <div id="loginPage" class="text-center md:p-4 p-3 rounded-md shadow-lg bg-white relative z-10 bg-pink-100 opacity-90">
+            <h1 class="md:text-4xl text-3xl font-medium md:mb-4  text-black">Enter Password</h1>
+            <input id="passwordInput" type="password" class="md:p-3 p-2 border border-black-300 rounded-md focus:outline-none bg-white-100" placeholder="Enter your password">
+            <button onclick="checkPassword()" class="mt-6 bg-pink-500 text-white md:p-3 p-2 px-6 rounded-md hover:bg-pink-600 transition duration-300">Submit</button>
+        </div>
+
+        <div id="homePage" class="hidden md:w-3/6 w-full opacity-90 p-8 bg-pink-100 rounded-lg shadow-md relative z-10">
+            <div class="text-start text-black">
+                <h1 class="text-4xl font-medium mb-6">Marianne,</h1>
+                <h1 class="text-2xl mb-4">To my one and only, Happy Valentine's Day. I can't put into words how thankful I am that you're a part of my life. Your support, especially during tough times, means a lot. I appreciate everything you do for me.</h1>
+                <h1 class="text-2xl mb-4">I'm sorry if there were times when it seemed like I was nonchalant. Please know that I love you every day with all my heart. You're my top priority, and I promise to be a better partner, putting in effort for our future.</h1>
+                <h1 class="text-2xl mb-8">You're one of the most important people in my life, and I'll do everything to make and keep you happy. I'm sorry we can't celebrate Valentine's Day together because, you know... but let's make up for it on Saturday. Looking forward to it! I love you, my future wife.</h1>
+                <h1 class="text-2xl mb-2 text-end">Love,</h1>
+                <h1 class="text-2xl font-medium mb-2 text-end">Khyle</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
